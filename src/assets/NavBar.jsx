@@ -9,7 +9,7 @@ const NavBar = () => {
         setOpen(!open)
     }
   return (
-    <div className='flex bg-white justify-center fixed z-auto items-center gap-10 w-full overflow-hidden px-8 text-black h-16 rounded-b-xl mt-0 shadow-lg '>
+    <div className='flex bg-white justify-center fixed z-20 items-center gap-10 w-full overflow-hidden px-8 text-black h-16 rounded-b-xl mt-0 shadow-lg '>
     <h1 className='w-full text-2xl font-semibold text-rose-400'>LOGO.</h1>
     <ul className='hidden sm:flex md:gap-4'>
         <li className='p-4 hover:border-b-2 border-b-gray-600 cursor-pointer'>Home</li>

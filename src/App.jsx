@@ -4,6 +4,7 @@ import NavBar from './assets/NavBar';
 import PageOne from "./assets/PageOne";
 import PageThree from "./assets/PageThree";
 import PageTwo from "./assets/PageTwo";
+import PageFour from "./assets/PageFour";
 function App() {
 
   return (
@@ -11,7 +12,8 @@ function App() {
       <NavBar />
       <PageOne/> 
       <PageTwo/>
-      <PageThree/>   
+      <PageThree/>  
+      <PageFour/> 
     </div>
   )
 }
