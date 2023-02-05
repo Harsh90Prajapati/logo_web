@@ -3,7 +3,7 @@ import {BsCloudArrowDownFill , GoDatabase ,MdSecurity ,MdDashboard ,CiMobile3 } 
 
 const PagrTwo = () => {
   return (
-    <div className='flex justify-center items-center max-w-[900px] mx-auto mt-[-45px] sm:mt-[-60px]'>
+    <div className='flex justify-center items-center max-w-[900px] mx-auto mt-[-60px]'>
       <div className='bg-white rounded-md m-4 w-full shadow-lg '>
           <div className='p-4  w-full sm:p-8 grid grid-cols-4 sm:grid-cols-4 md:grid-cols-5 gap-2 md:gap-0 font-mono '>
             <div className='flex items-center justify-center gap-1 cursor-pointer'>
