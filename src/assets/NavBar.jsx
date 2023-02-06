@@ -22,7 +22,7 @@ const NavBar = () => {
     <div onClick={openMenu} className='block sm:hidden flex-1 '>
     {!open ? <AiOutlineClose/> : <AiOutlineMenu size={20}/>}
     </div>
-    <div className={!open ? 'fixed z-10 bg-pink-50 text-indigo-900 left-0 top-0 w-full border-r mt-14 h-[48%] border-r-gray-400 ease-in-out duration-500 md:hidden rounded-b-lg shadow-md':'fixed z-10 top-[-100%] h-[50%] w-full duration-700'}>
+    <div className={!open ? 'fixed z-10 bg-pink-50 text-indigo-900 left-0 top-0 w-full border-r mt-14 h-[350px] border-r-gray-400 ease-in-out duration-500 md:hidden rounded-b-lg shadow-md':'fixed z-10 top-[-100%] h-[50%] w-full duration-700'}>
     <ul className='uppercase p-4 cursor-pointer'>
         <li className='p-4 border-b border-b-rose-300 text-sm'>Home</li>
         <li className='p-4 border-b border-b-rose-300 text-sm'>About</li>
