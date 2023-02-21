@@ -2,7 +2,7 @@ import React from "react";
 
 const PageThree = () => {
   return (
-    <div className="h-full w-full bg-emerald-50 flex justify-center items-center mt-[-40px] sm:mt-[-55px]">
+    <div className="h-full w-full bg-emerald-100 flex justify-center items-center mt-[-40px] sm:mt-[-55px]">
       <div className="max-w-[1000px] mx-auto my-[100px]">
         <div className="text-center  p-10">
           <h1 className="sm:text-4xl text-2xl font-semibold text-rose-400">Trusted By Many Users Across the World</h1>

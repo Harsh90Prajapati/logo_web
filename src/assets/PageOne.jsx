@@ -3,7 +3,7 @@ import Space from './img/pixel.svg'
 
 const PageOne = () => {
   return (
-    <div className="bg-pink-50 flex justify-center items-center h-[800px] sm:h-[700px] shadow-md rounded-b-md">
+    <div className="bg-pink-100 flex justify-center items-center h-[800px] sm:h-[700px] shadow-md rounded-b-md">
       <div className="sm:flex-row flex flex-col items-center justify-evenly w-full mx-4 sm:mx-0  ">
         <img src={Space} alt="image" className="sm:w-[50%]" />
         <div className="mt-5 sm:mt-0 sm:w-[40%] ">
