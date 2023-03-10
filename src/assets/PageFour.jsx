@@ -8,7 +8,7 @@ function PageFour() {
     <div className=" bg-cyan-100 py-20 text-center">
       <div className="flex flex-col justify-between items-center h-full gap-20">
       <h1 className=" text-3xl font-semibold text-rose-400 underline">Our Employees</h1>
-      <div className="grid grid-cols-1 lg:grid-cols-3 px-5 gap-5 max-w-[1124px] mx-auto">
+      <div className="grid grid-cols-1 lg:grid-cols-3 px-5 gap-5 lg:max-w-[1124px] max-w-[600px] mx-auto">
         {Testimonial.map((item)=>{
           return(
             <div className=" flex flex-col justify-center items-center" key={item.id}>

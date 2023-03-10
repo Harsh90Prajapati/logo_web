@@ -6,6 +6,7 @@ import PageThree from "./assets/PageThree";
 import PageTwo from "./assets/PageTwo";
 import PageFour from "./assets/PageFour";
 import PageFive from "./assets/PageFive";
+import PageSix from "./assets/PageSix"
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
       <PageThree/> 
       <PageFour/> 
       <PageFive/>
+      <PageSix/>
     </div>
   )
 }

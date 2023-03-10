@@ -3,7 +3,7 @@ import {MdOutlineEmail , BsWhatsapp, RiMessengerLine } from 'react-icons/all'
 
 const PageFive = () => {
   return (
-       <div className="text-center font-sans bg-[url('./assets/img/2.svg')] bg-cover">
+       <div className="text-center font-sans bg-[url('./assets/img/2.svg')] bg-cover p-6">
         <h5 className="font-medium py-4 text-3xl text-white border-b-2 inline-block">Get In Touch</h5>
         <div className="containor md:flex justify-center items-center gap-3 max-w-[1024px] mx-auto  text-white">
         <div className="flex flex-col  gap-2 p-4">
